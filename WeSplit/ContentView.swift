@@ -33,7 +33,7 @@ struct ContentView: View {
                         "Amount",
                         value: $checkAmount,
                         format:
-                            .currency(code: Locale.current.currency?.identifier ?? "BDT"))
+                            .currency(code: Locale.current.currency?.identifier ?? "USD"))
                             .keyboardType(.decimalPad)
                             .focused($amountIsFocused)
                     
